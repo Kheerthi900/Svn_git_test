@@ -72,17 +72,17 @@
     
    <target name="build-war">
 
-   <war destfile="C:\Users\miracle\Documents\NetBeansProjects\svn_git\dist\JenkinsVM.war" webxml="C:\Users\miracle\Documents\NetBeansProjects\svn_git\web\WEB-INF\web.xml">
+   <war destfile="C:\Users\miracle\.jenkins\jobs\git_svn_demo\workspace\JenkinsVM.war" webxml="C:\Users\miracle\.jenkins\jobs\git_svn_demo\workspace\web\WEB-INF\web.xml">
    <!--Give the WebContent folder path-->
-      <fileset dir="C:\Users\miracle\Documents\NetBeansProjects\svn_git\web">
+      <fileset dir="C:\Users\miracle\.jenkins\jobs\git_svn_demo\workspace">
          <include name="**/*.*"/>
       </fileset>
       <!--Give the lib folder path-->
-      <lib dir="C:\Users\miracle\Documents\NetBeansProjects\svn_git\web\WEB-INF\lib">
+      
          
       </lib>
       <!--Give the classes folder path-->
-      <classes dir="C:\Users\miracle\Documents\NetBeansProjects\svn_git\src\java\comm\mss"/>
+      <classes dir="C:\Users\miracle\.jenkins\jobs\git_svn_demo\workspace\src\java\comm\mss"/>
    </war>
    
 </target>
