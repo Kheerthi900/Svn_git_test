@@ -80,7 +80,7 @@
             <!--Give the lib folder path-->
       
          
-        </lib>
+        
         <!--Give the classes folder path-->
         <classes dir="C:\Users\miracle\.jenkins\jobs\git_svn_demo\workspace\src\java\comm\mss"/>
         </war>
