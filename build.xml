@@ -70,21 +70,22 @@
     -->
     
     
-   <target name="build-war">
-
-   <war destfile="C:\Users\miracle\.jenkins\jobs\git_svn_demo\workspace\JenkinsVM.war" webxml="C:\Users\miracle\.jenkins\jobs\git_svn_demo\workspace\web\WEB-INF\web.xml">
-   <!--Give the WebContent folder path-->
-      <fileset dir="C:\Users\miracle\.jenkins\jobs\git_svn_demo\workspace">
-         <include name="**/*.*"/>
-      </fileset>
-      <!--Give the lib folder path-->
+    <target name="build-war">
+       
+        <war destfile="C:\Users\miracle\.jenkins\jobs\git_svn_demo\workspace\JenkinsVM.war" webxml="C:\Users\miracle\.jenkins\jobs\git_svn_demo\workspace\web\WEB-INF\web.xml">
+            <!--Give the WebContent folder path-->
+            <fileset dir="C:\Users\miracle\.jenkins\jobs\git_svn_demo\workspace">
+                <include name="**/*.*"/>
+            </fileset>
+            <!--Give the lib folder path-->
       
          
-      </lib>
-      <!--Give the classes folder path-->
-      <classes dir="C:\Users\miracle\.jenkins\jobs\git_svn_demo\workspace\src\java\comm\mss"/>
-   </war>
-   
-</target>
+        </lib>
+        <!--Give the classes folder path-->
+        <classes dir="C:\Users\miracle\.jenkins\jobs\git_svn_demo\workspace\src\java\comm\mss"/>
+        </war>
+    </target>
+     
+
     
 </project>
